@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -108,4 +108,31 @@ h1 {
     width: 180px;
     justify-content: center;
     text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: start
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    width: 830px;
+}
+
+.author {
+    font-weight: 900;
+    text-align: end;
+    margin-left: 400px;
 }
