@@ -80,6 +80,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .second-section img {
@@ -91,13 +92,16 @@ h1 {
 }
 
 .second-section h2 {
-    margin: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px;
 }
 
 .image-row {
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 40px;
 }
 
 .image-row p {
