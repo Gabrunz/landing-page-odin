@@ -136,3 +136,41 @@ h1 {
     text-align: end;
     margin-left: 400px;
 }
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    gap: 100px;
+    border-radius: 8px;
+}
+
+.cta .left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-header {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.cta-subtitle {
+    color: #E5E7EB;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.cta-button {
+    border: 2px solid #F9FAF8;
+}
